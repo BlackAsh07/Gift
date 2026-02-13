@@ -58,7 +58,7 @@ fetch('config.json')
     const quotesNr = kissDayQuotes.length;
     for (let i = 0; i < quotesNr; i++) {
       const link = document.createElement('a');
-      link.setAttribute('href', 'card.html?source=kiss');
+      // link.setAttribute('href', 'card.html?source=kiss');
       const para = document.createElement("p");
       para.classList.add("quote");
       para.innerText = kissDayQuotes[i];

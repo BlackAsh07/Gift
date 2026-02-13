@@ -55,7 +55,7 @@ fetch('config.json')
 
     for (let i = 0; i < quotesCount; i++) {
       const link = document.createElement('a');
-      link.setAttribute('href', 'card.html?source=teddy');
+      // link.setAttribute('href', 'card.html?source=teddy');
       const para = document.createElement("p");
       para.classList.add("quote");
       para.innerText = teddyDayQuotes[i];

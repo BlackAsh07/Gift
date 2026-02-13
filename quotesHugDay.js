@@ -61,7 +61,7 @@ Happy Hug Day, my love!`
 
     for (let i = 0; i < quotesNr; i++) {
       const link = document.createElement('a');
-      link.setAttribute('href', 'card.html?source=hug');
+      // link.setAttribute('href', 'card.html?source=hug');
       const para = document.createElement("p");
       para.classList.add("quote");
       para.innerText = hugDayQuotes[i];

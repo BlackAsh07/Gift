@@ -52,13 +52,14 @@ const quotesNr = roseDay.length;
 
 for (let i = 0; i < quotesNr; i++) {
   const link = document.createElement('a');
-  link.setAttribute('href', 'card.html');
+  /*link.setAttribute('href', 'card.html');*/
   const para = document.createElement("p");
   para.classList.add("quote");
   para.innerText = roseDay[i];
   link.appendChild(para);
   quotesDiv.appendChild(link);
 }
+
 
 // Add click listener to save the chosen quote to localStorage.
 const quoteDivs = document.querySelectorAll(".quote");

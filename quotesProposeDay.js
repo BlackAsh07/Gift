@@ -32,7 +32,7 @@ fetch('config.json')
     
     for (let i = 0; i < quotesNr; i++) {
       const link = document.createElement('a');
-      link.setAttribute('href', 'card.html?source=propose');
+      /*link.setAttribute('href', 'card.html?source=propose');*/
       const para = document.createElement("p");
       para.classList.add("quote");
       para.innerText = proposeQuotes[i];

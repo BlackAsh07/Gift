@@ -70,7 +70,7 @@ fetch('config.json')
     const quotesNr = chocolateDayQuotes.length;
     for (let i = 0; i < quotesNr; i++) {
       const link = document.createElement('a');
-      link.setAttribute('href', 'card.html?source=chocolate');
+      /*link.setAttribute('href', 'card.html?source=chocolate');*/
       const para = document.createElement("p");
       para.classList.add("quote");
       para.innerText = chocolateDayQuotes[i];

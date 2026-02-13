@@ -66,7 +66,7 @@ fetch('config.json')
     const quotesNr = promiseDayQuotes.length;
     for (let i = 0; i < quotesNr; i++) {
       const link = document.createElement('a');
-      link.setAttribute('href', 'card.html?source=promise');
+      // link.setAttribute('href', 'card.html?source=promise');
       const para = document.createElement("p");
       para.classList.add("quote");
       para.innerText = promiseDayQuotes[i];
