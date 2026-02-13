@@ -152,7 +152,7 @@
             .then(response => response.json())
             .then(config => {
                 // Update the title with the names from the configuration file.
-                document.title = `Happy Valentine's Day, ${config.fpName} & ${config.spName}`;
+                document.title = `Happy Valentine's Day`;
             })
             .catch(error => console.error('Error loading config:', error));
 
